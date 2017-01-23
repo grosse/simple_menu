@@ -30,10 +30,13 @@
 	background-color: #cec48e
 }
 
+div.content {
+	clear: right;
+}
+
 section {
 	margin: 20px;
 	border: 1px solid black;
 	width: 40%;
 	background-color: #878683
-
 }
