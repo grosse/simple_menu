@@ -30,7 +30,7 @@
 	background-color: #cec48e
 }
 
-#chicken_items, #beef_items, #sushi_items {
+section {
 	margin: 20px;
 	border: 1px solid black;
 	width: 40%;
