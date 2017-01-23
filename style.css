@@ -1,12 +1,29 @@
 #beef {
+	
+	width: 7em;
+	height: 1em;
+	margin: 0;
+	padding: 1px;
+	border: 1px solid black;
 	background-color: #aa1d32
 }
 
 #chicken {
-	background-color: #ce8177
+	
+	width: 7em;
+	height: 1em;
+	margin: 0;
+	padding: 1px;
+	border: 1px solid black;
+    background-color: #ce8177
 }
 
 #sushi {
+	width: 5em;
+	height: 1em;
+	margin: 0;
+	padding: 1px;
+	border: 1px solid black;
 	background-color: #cec48e
 }
 
