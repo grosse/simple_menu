@@ -5,7 +5,7 @@
 	margin: 0;
 	padding: 1px;
 	border: 1px solid black;
-	float: right;
+	
 	background-color: #aa1d32;
 }
 
@@ -16,8 +16,7 @@
 	margin: 0;
 	padding: 1px;
 	border: 1px solid black;
-	float: right;
-    background-color: #ce8177
+	background-color: #ce8177
 }
 
 #sushi {
@@ -26,17 +25,25 @@
 	margin: 0;
 	padding: 1px;
 	border: 1px solid black;
-	float: right;
 	background-color: #cec48e
+}
+div.title {
+  position: absolute;
+  top: 0px;
+  right: 0px;	
 }
 
 div.content {
-	clear: right;
+	position: absolute;
+	top: 20px;
+	
 }
 
 section {
 	margin: 20px;
 	border: 1px solid black;
 	width: 40%;
+	height: 200px;
+	position: relative;
 	background-color: #878683
 }
