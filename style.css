@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 #beef {
 	
 	width: 7em;
@@ -38,16 +41,55 @@ div.content {
 	top: 20px;
 	
 }
+div.inner {
+	border: 1px solid black;
+	width: 90%;
+	height: 125px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
 
 section {
-	margin: 20px;
+	margin-right: auto;
+	margin-left: auto;
 	border: 1px solid black;
 	width: 40%;
-	height: 200px;
+	
 	position: relative;
+	box-sizing: border-box;
 	background-color: #878683
+	margin-bottom: 15px;
 }
 
 h1 {
 	text-align: center;
 }
+
+@media (min-width: 992px) {
+ section {
+ 	width: 20%;
+ 	float: left;
+ 	border: 100px solid black;
+ }
+}
+.row {
+	width: 100%;
+}
+ @media(min-width: 768px) and (max-width: 991px) {
+ 	section {
+ 		width: 50%;
+ 		float: left;
+ 		border: 1px solid black;
+ 		margin-bottom: 10px;
+ 		margin-right: auto;
+ 		margin-left: auto;
+ 	}
+ 	section.sushi {
+ 		width: 100%;
+ 		border: 1px solid black;
+ 		box-sizing: border-box;
+ 	}
+  }
+
+} 
