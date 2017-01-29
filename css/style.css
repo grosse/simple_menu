@@ -3,6 +3,7 @@
 }
 #beef {
 	background-color: #aa1d32;
+  color: #f7f8f9;
 }
 
 #chicken {
@@ -14,6 +15,9 @@
 	background-color: #cec48e
 }
 
+body {
+  margin: 0;
+}
 
 p.title {
 	width: 100px;
@@ -31,6 +35,7 @@ div.content {
 	position: absolute;
 
   margin-top: 40px;
+  padding: 10px;
 	
 }
 div.container {
@@ -59,17 +64,21 @@ h1 {
  	float: left;
  	
  }
- div.sushi {
-      margin-left: 5px;
+ 
+   
+    div.chicken {
+    	margin-left: 20px;
+    	margin-right: 10px;
+    }
+
+    div.beef {
+      margin-left: 10px;
       margin-right: 10px;
     }
-    div.beef {
-    	margin-left: 5px;
-    	margin-right: 5px;
-    }
-    div.chicken {
-    	margin-left: 10px;
-    	margin-right: 5px;
+ 
+    div.sushi {
+      margin-left: 10px;
+      margin-right: 20px
     }
 }
 .row {
@@ -85,17 +94,19 @@ h1 {
  		width: 100%;
  		box-sizing: border-box;
  	}
-    div.sushi {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-    div.beef {
-    	margin-left: 5px;
+    
+    
+    div.chicken {
+    	margin-left: 20px;
     	margin-right: 10px;
     }
-    div.chicken {
-    	margin-left: 10px;
-    	margin-right: 5px;
+    div.beef {
+      margin-left: 10px;
+      margin-right: 20px;
+    }
+    div.sushi {
+      margin-left: 20px;
+      margin-right: 20px;
     }
   }
 @media(max-width: 767px) {
@@ -109,17 +120,18 @@ h1 {
  		width: 100%;
  		box-sizing: border-box;
  	}
-    div.sushi {
-      margin-left: 10px;
-      margin-right: 10px;
+      
+    div.chicken {
+    	margin-left: 20px;
+    	margin-right: 20px;
+   
     }
     div.beef {
-    	margin-left: 10px;
-    	margin-right: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
     }
-    div.chicken {
-    	margin-left: 10px;
-    	margin-right: 10px;
-   
+    div.sushi {
+      margin-left: 20px;
+      margin-right: 20px;
     }
   }
